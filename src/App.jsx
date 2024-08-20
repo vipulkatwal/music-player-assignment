@@ -235,19 +235,19 @@ function App() {
 			{/* Sidebar */}
 			<div className="w-full md:w-72 relative flex flex-col h-full bg-black bg-opacity-50">
 				<div className="p-6">
-					<div className=" items-start justify-center">
+					<div className="items-start justify-center">
 						<img
 							src={spotifyLogo}
 							alt="Spotify"
 							className="w-full max-w-[140px] h-auto"
 						/>
 					</div>
-					<div className="absolute bottom-0 left-0 w-full p-4">
-						<div className="flex items-center">
+					<div className="absolute bottom-0 right-0 md:left-0 md:right-auto w-full md:w-auto p-4">
+						<div className="flex items-center justify-end md:justify-start">
 							<img
 								src={userPlaceholder}
 								alt="User"
-								className="w-10 h-10 rounded-full mr-3"
+								className="w-10 h-10 rounded-full"
 							/>
 						</div>
 					</div>
